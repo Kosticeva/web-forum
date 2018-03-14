@@ -1,0 +1,205 @@
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+		<link rel="stylesheet" type="text/css" href="css/topic_layout.css" />
+		<link rel="stylesheet" type="text/css" href="css/comment_layout.css" />
+		<link rel="stylesheet" type="text/css" href="css/font_variants.css" />
+		<link rel="stylesheet" type="text/css" href="css/button_links.css" />
+		<link rel="stylesheet" type="text/css" href="css/images.css" />
+		<title></title>
+	</head>
+	<body>
+		<script src="js/jquery-3.2.1.js"></script>
+		<script src="js/frame_loader.js"></script>
+		<script src="js/topic.js"></script>
+		<script src="js/cookies.js"></script>
+		<script src="js/new_comment.js"></script>
+		<script src="js/comment.js"></script>
+		<script src="js/commentRenderer.js"></script>
+		<div class="top">
+			<div class="main">
+				<br />
+				<span class="title">Join the discussion</span>
+				<br />
+				<span><span id="user_num"></span> registered users</span>
+			</div>
+			<div class="go-back">
+				<br /><br />
+				<span class="exp">Check out other topics</span>
+				<br /><br /><br />
+				<a id="go-back" href="forum.html">Browse</a>
+			</div>
+			<div class="teleportt">
+				<a href="#comments"><img src="images/comment.png" /></a>
+			</div>
+			<div class="log">
+				<!--br /><br /><br /><br />
+				<a id="login" href="login">Log in</a>
+				<a id="logout" href="logout">Log out</a>-->
+			</div>
+		</div>
+		<div class="bottom">
+			<div class="left">
+				<div class="help">
+					<br />
+					<span class="title"><a href="recommendations.html">?</a></span>
+				</div>
+				<div class="logo">
+					<a href="home_page.html"><img src="images/logo.jpg" /></a>
+				</div>
+			</div>
+			<div class="middle">
+				<div class="options">
+					<div class="votes">
+						<div class="like">
+							<!--<a id="like" href="like"><img src="like.png" /></a>
+						--></div>
+						<div class="hate">
+							<!--<a id="hate" href="hate"><img src="dislike.png" /></a>
+						--></div>
+					</div>
+					<div class="middle-part">
+						<div class="savee">
+							<!--<br />
+							<a id="save" href="save"><img src="save.jpeg" /></a>
+						--></div>
+						<div class="right-part">
+							<div class="edit">
+								<!--<br /><br />
+								<a id="edit" href="edit">Edit</a>
+							--></div>
+							<div class="delete">
+								<!--<a id="del" href="delete"><img src="remove-icon-png-24.png" /></a>
+							--></div>
+						</div>
+					</div>
+					<div class="rep">
+						<div class="ovel">
+						</div>
+						<div class="onsed">
+						</div>
+					</div>
+				</div>
+				<div class="topic-info">
+					<div class="reg-info">
+						<div class="lhd-n-author">
+							<div class="l-n-h">
+								Likes <span id="likes"></span> |
+								<span id="hates"></span> Hates
+							</div>
+							<div class="author">
+								Author:<br />
+								<span id="author">
+								</span>
+							</div>
+							<div class="date">
+								<span id="date">
+								</span>
+							</div>
+						</div>
+						<div class="f-n-t">
+							<div class="ptitle">
+								<span id="ptitle">
+								</span>
+							</div>
+							<div class="ttitle">
+								<span id="ttitle">
+								</span>
+							</div>
+						</div>
+					</div>
+					<div class="cont">
+						<span id="cont">
+						</span>
+					</div>
+				</div>
+			</div>
+			<div class="right">
+				<div class="user">
+					<!--<img src="user_page.jpg" />
+					<br /><br /><br /><br /><br />
+					<a href="register" id="register">Register</a>-->
+				</div>
+				<div class="info">
+					<br /><br /><br /><br /><br /><br />
+					<span class="title"><div>@2017 by Jelena Kostic</div></span>
+				</div>
+			</div>
+		</div>
+		<br />
+		<div class="report-cont"></div>
+		<div class="comments">
+			<a name="comments"></a>
+			<!-- <div class="comment">
+				<div class="tophat">
+					<div class="big">
+						<div class="keypad">
+							<div class="rpl">
+								<a class="rpl" href="#">Reply</a>
+							</div>
+							<div class="sv">
+								<a class="sv" href="#">Save</a>
+							</div>
+							<div class="rprt">
+								<a class="rprt" href="#">Report</a>
+							</div>
+							<div class="dt">
+								<a class="dt" href="#">Edit</a>
+							</div>
+							<div class="dlt">
+								<a class="dlt" href="#">Delete</a>
+							</div>
+						</div>
+						<div class="a-n-d">
+							<span id="a-n-d_id">
+								Jelena@ Sat 9/16/2017 9:45 PM GMT+1
+							</span>
+						</div>
+					</div>
+					<div class="small">
+						<div class="liken">
+							<div class="ww">
+								<span id="like_id">
+									0
+								</span>
+							</div>
+							<div class="likee">
+								<a href="#"><img src="like.png" /></a>
+							</div>
+						</div>
+						<div class="haten">
+							<div class="ww">
+								<span id="hate_id">
+								0
+								</span>
+							</div>
+							<div class="hatee">
+								<a href="#"><img src="dislike.png" /></a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="boot">
+					<span id="cont_id">
+						Ovo je komentar bla bla 1 bla bla
+					</span>
+				</div>
+				<div class="placeholder">
+					<!--<div class="rep_cont">
+						<div class="text">
+							Enter complaint here:<br/>
+							<textarea></textarea>
+						</div>
+						<div class="but1">
+							<span id="id"><button>Send report</button></span>
+						</div>
+					</div>
+				</div>
+				<div class="recursion">
+					<ul id="id">
+					</ul>
+				</div>
+			</div>-->
+		</div>
+	</body>
+</html>

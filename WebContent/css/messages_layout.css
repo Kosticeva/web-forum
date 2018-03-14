@@ -1,0 +1,168 @@
+/*=====POLOZAJI I CENTRIRANJE=====*/
+
+.new-message{
+	width: 100%;
+	height: 16.67%;
+}
+
+.main, .frame{
+	width: 100%;
+	height: 33%;
+}
+
+.odd-messages .message{
+	width: 98%;
+	height: 40%;
+}
+
+.even-messages .message, #msgTable{
+	width: 98%;
+	height: 50%;
+}
+
+#msgTable{
+	width: 98%;
+	height: 0%;
+}
+
+.hat{
+	width: 100%;
+	height: 40%;
+}
+
+.shoe{
+	width: 100%;
+	height: 60%;
+}
+
+.help, .logo{
+	width: 100%;
+	height: 50%;
+}
+
+.left-bottom, .important{
+	width: 100%;
+	height: 67%;
+}
+
+.odd-messages{
+	width: 100%;
+	height: 83.33%;
+}
+
+.right-right, .left-bottom-left{
+	width: 25%;
+	height: 100%;
+}
+
+.user, .info{
+	height: 33%;
+	width: 100%;
+}
+
+.log{
+	height: 34%;
+	width: 100%;
+}
+
+.ssave, .send{
+	width: 33%;
+	height: 100%;
+}
+
+.sender, .whom{
+	width: 67%;
+	height: 100%;
+}
+
+.left, .right{
+	width: 50%;
+	height: 100%;
+}
+
+.right-left, .even-messages{
+	width: 75%;
+	height: 100%;
+}
+
+.left, .right-left, .left-bottom-left, .ssave, .whom{
+	float: left;
+}
+
+.right-right, .right, .even-messages, .sender, .send{
+	float: right;
+}
+
+.log, .help, .main, .new-message, .message, #msgTable, .frame, .hat{
+	float: top;
+}
+
+.info, .logo, .left-bottom, .odd-messages, .important, .shoe{
+	float: bottom;
+}
+
+.log, .user, .even-messages, .odd-messages, .logo, .help,
+.main, .new-message, .sender, .send{
+	text-align: center;
+}
+
+.info .title, .info, .info .title div, #msgTable, .important{
+    text-align: left;
+}
+
+.message, #msgTable{
+	margin: 0% 2% 2% 1%;
+}
+
+.message{
+	overflow: hidden;
+}
+
+/*=====POLOZAJI I CENTRIRANJE=====*/
+
+/*=====BOJE KONTEJNERA=====*/
+
+body{
+	background-color: rgb(247,209,164);
+}
+
+.main, #msgTable{
+	background-color: rgb(254,254,254);
+}
+
+.log, .info, .odd-messages .message{
+	background-color: rgb(237, 151, 46);
+}
+
+.help{
+	background-color: rgb(0,167,157);
+}
+
+.odd-messages .message, #msgTable{
+	background-color: rgba(237, 151, 46, 0.7);
+}
+
+.even-messages .message{
+	background-color: rgba(0,167,157, 0.7);
+}
+
+.main, .help, .log, .info{
+	box-shadow: 1px 1px rgb(227,189,144);
+}
+
+.message{
+	box-shadow: 2px 2px rgb(227,189,144);
+}
+
+/*.main, .help, .info, .log, .logo, .user, .new-forum{
+	position: fixed;
+}*/
+
+/*=====BOJE KONTEJNERA=====*/
+
+.info .title div{
+	-webkit-transform: rotate(-90deg);
+}
+
+
+

@@ -1,0 +1,149 @@
+/*=====FONTOVI=====*/
+
+body{
+	font-family: Helvetica;
+	font-variant: small-caps;
+	text-overflow: wrap;
+}
+
+.forum-subjects, .message .ssave, #msgTable .send{
+	font-size: 0.5vw;
+}
+
+.info, .search, .new-subject, .teleport, .mod, .save, .report,
+.del, .go-back, .queries, .other, .date, .comments{
+	font-size: 1vw;
+}
+
+#description, .administration, .saved-content, .bla-bla, .cont{
+	font-size: 1.1vw;
+}
+
+.cv, .reg-info .date{
+	font-size: 1.3vw;
+}
+
+.subject-title, .instructions, .search-title,
+.queries .title1, .form1, .message, .complaint,
+.saved-content div a, .comment{
+	font-size: 1.5vw;
+}
+
+.opts, .name{
+	font-size: 1.8vw;
+}
+
+.exp, #mod, #rules, .titlee, .descriptionn, .ruless, .parent, 
+.contentt, .forum-title, .subj-title, .type, .l-n-h, .date, .author, .ptitle,
+.ttitle, .form1 span, .imageChoose, #msgTable, .complaint .sender,
+.rep_cont, #rep_cont, .expl, .saved-ones p{
+	font-size: 2vw;
+}
+
+.main, .search .extra, .exp, .queries .title, .admin-title,
+.saved-content, .tpic{
+	font-size: 2.5vw;
+}
+
+.help, .forums, .subjects, #forum-title, 
+.instructions .title, .welcome, .upper .title, .lower .title,
+.search-title .title, .even-result a, .odd-result a, .subjects-title, .saved-ones,
+.one-user, .two-user, .three-user{
+	font-size: 3vw;
+}
+
+ .admin-title .title, .administration .title{
+	font-size: 4vw;
+ }
+
+.main .title, .search .title, .bla-bla .xx,
+.welcome .title, .new-forum .title{
+	font-size: 5vw;
+}
+
+.forums .title, .subjects .title{
+	font-size: 6vw;
+}
+
+.help .title a{
+    font-size: 7.5vw;
+}
+
+#forum_num, #subj_num, #user_num, #forum-title, #mod,
+#rules, #forum_title, .date, .l-n-h, .author span, .username,
+.liken span, .haten span, #subjects-title{
+	font-weight: bold;
+}
+
+/*=====FONTOVI=====*/
+
+
+/*=====BOJA TEKSTA=====*/
+
+.main, .main .title, .search, .search .title, .forum-title, .mod,
+.description, .three-subject, .administration, .bla-bla, .instructions,
+.queries .forums-query, .admin-title .title, .admin-title, .descriptionn, .contentt,
+.subj-title, .author, .date, .ptitle, .OL a, .OB .LL a, .obj2 .LL a,
+.surname, .namee, .report-cont .text,.subjects-title, .new-forum .title, #ruless, #datee, .two-user{
+	color: rgb(0,167,157);
+}
+
+.help, .forums, .subjects, .forums .title, .subjects .title,
+.info, .even-subject, .odd-subject, .go-back, 
+.saved-content, .welcome, .form, .form1, .search-title .title, .titlee, .ruless,
+.queries, .parent, .type, .name, .other, .l-n-h, .ttitle, .cont,
+.imageChoose, .message, #msgTable, .complaint, .cv, .comment, #content a, .comments, #rules,
+.saved-ones, .one-user, .three-user{
+	color: rgb(254,254,254);
+}
+
+/*=====BOJA TEKSTA=====*/
+
+/*=====SENKA TEKSTA=====*/
+
+/*manji na kajsija pozadini*/
+.forum-title, .admin-title, .subj-title, .OB .LL a, .datee, .report-cont .text{
+	text-shadow: 2px 2px rgb(227,189,144);
+}
+
+/*veci na kajsija pozadini*/
+.bla-bla, .admin-title .title, .subjects-title, .new-forum .title{
+	text-shadow: 5px 5px rgb(227,189,144);
+}
+
+/*manji na beloj pozadini*/
+.main, .search, .mod, .instructions, .descriptionn, .contentt,
+.OL a, .obj2 .LL a, .surname, .namee, .tpic .three-subject, #ruless{
+	text-shadow: 2px 2px rgb(234,234,234);
+}
+
+/*veci na beloj pozadini*/
+.main .title, .search .title, .administration .title{
+	text-shadow: 5px 5px rgb(234,234,234);
+}
+
+/*manji na narandzastoj pozadini*/
+.forums, .info, .saved-content, .upper .title, .lower .title,
+.form1, .odd-result, .titlee, .odd-complaints .complaint, .role, .comments, #rules, 
+.saved-ones .subjecti, .saved-ones .messge, .saved-ones .hatevi{
+	text-shadow: 2px 2px rgb(217, 131, 26);
+}
+
+/*veci na narandzastoj pozadini*/
+.forums .title{
+	text-shadow: 5px 5px rgb(217, 131, 26);
+}
+
+/*manji na plavoj pozadini*/
+.subjects, .welcome, .even-result, .ruless, .parent, .type, 
+.even-complaints .complaint, .OT, .T2, .username, .phone, .email, .tpic .even-subject,
+.saved-ones .forumi, .saved-ones .commenti, .saved-ones .likevi{
+	text-shadow: 2px 2px rgb(0,147, 137);
+}
+
+/*veci na plavoj pozadini*/
+.subjects .title, .help, .welcome .title, .search-title .title{
+	text-shadow: 5px 5px rgb(0,147, 137);
+}
+
+/*=====SENKA TEKSTA=====*/

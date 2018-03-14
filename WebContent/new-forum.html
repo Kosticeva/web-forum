@@ -1,0 +1,96 @@
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+		<link rel="stylesheet" type="text/css" href="css/new-forum_layout.css" />
+		<link rel="stylesheet" type="text/css" href="css/font_variants.css" />
+		<link rel="stylesheet" type="text/css" href="css/button_links.css" />
+		<link rel="stylesheet" type="text/css" href="css/images.css" />
+		<title>Create a forum</title>
+	</head>
+	<body>
+		<script src="js/jquery-3.2.1.js"></script>
+		<script src="js/frame_loader.js"></script>
+		<script src="js/new-forum.js"></script>
+		<script src="js/cookies.js"></script>
+		<div class="top">
+			<div class="main">
+				<br />
+				<span class="title">Join the discussion</span>
+				<br />
+				<span><span id="user_num"></span> registered users</span>
+			</div>
+			<div class="forum-title">
+				<br /><br />
+				<span id="forum-title">Over <span id="forum_num"></span> forums available</span>
+			</div>
+			<div class="log">
+				<!--<br /><br /><br /><br />
+				<a id="login" href="login">Log in</a>
+				<a id="logout" href="logout">Log out</a>-->
+			</div>
+		</div>
+		<div class="bottom">
+			<div class="left">
+				<div class="help">
+					<br />
+					<span class="title"><a href="recommendations.html">?</a></span>
+				</div>
+				<div class="logo">
+					<a href="home_page.html"><img src="images/logo.jpg" /></a>
+				</div>
+			</div>
+			<div class="middle">
+				<div class="up">
+					<div class="links">
+						<div class="titlee">
+							<div class="title">How would you like to name your forum?
+							</div>
+							<input type="text" id="title" name="title" />
+						</div>
+						<div class="descriptionn">
+							<div class="title">Say something about your forum
+							</div>
+							<textarea id="description" name="description"></textarea>
+						</div>
+					</div>
+					<div class="rechts">
+						<div class="pic">
+							<div class="imageChoose">
+								<input class="imCC" type="file" id="image" accept="image/*"  onchange="readURL(this);"/>
+								<img class="imCC" id="blah" src="#" alt="Choose a image" />
+							</div>
+						</div>
+						<div class="ok">
+							<button id="submit">OK</button>
+						</div>
+					</div>
+				</div>
+				<div class="ruless">
+					<div class="title">Name rules that apply to the forum
+					</div>
+					<textarea id="ruless" name="rules"></textarea>
+				</div>
+			</div>
+			<div class="right">
+				<div class="user">
+					<!--<img src="user_page.jpg" />
+					<br /><br /><br /><br /><br />
+					<a href="register" id="register">Register</a>-->
+				</div>
+				<div class="info">
+					<br /><br /><br /><br /><br /><br />
+					<span class="title"><div>@2017 by Jelena Kostic</div></span>
+				</div>
+			</div>
+		</div>
+		<div class="forum-subjects">
+			<!--<a name="forum-subjects"></a>
+			<div class="odd-subject"><br /><br /><br /><span class="subject-title">Tema 1</span></div>
+			<div class="even-subject"><br /><br /><br /><span class="subject-title">Tema 2</span></div>
+			<div class="three-subject"><br /><br /><br /><span class="subject-title">Tema 3</span></div>
+			<div class="odd-subject"><br /><br /><br /><span class="subject-title">Tema 4</span></div>
+			<div class="even-subject"><br /><br /><br /><span class="subject-title">Tema 5</span></div>
+			<div class="three-subject"><br /><br /><br /><span class="subject-title">Tema 6</span></div>
+		--></div>
+	</body>
+</html>

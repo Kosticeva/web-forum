@@ -1,0 +1,122 @@
+/*=====POLOZAJI I CENTRIRANJE=====*/
+
+.form1 div{
+	width: 100%;
+	height: 16.67%;
+}
+
+.rest{
+	width: 100%;
+	height: 25%;
+}
+
+.main{
+	width: 100%;
+	height: 33%;
+}
+
+.help, .logo, .upper, .lower{
+	width: 100%;
+	height: 50%;
+}
+
+.left-bottom{
+	width: 100%;
+	height: 67%;
+}
+
+.welcome{
+	width: 100%;
+	height: 75%;
+}
+
+.right-right, .left-bottom-left{
+	width: 25%;
+	height: 100%;
+}
+
+.userr, .info, .instructions{
+	height: 33%;
+	width: 100%;
+}
+
+.loggg{
+	height: 34%;
+	width: 100%;
+}
+
+.left, .right{
+	width: 50%;
+	height: 100%;
+}
+
+.intro{
+	height: 67%;
+	width: 100%;
+}
+
+.right-left, .form1{
+	width: 75%;
+	height: 100%;
+}
+
+.left, .right-left, .left-bottom-left{
+	float: left;
+}
+
+.right-right, .right, .form1{
+	float: right;
+}
+
+.loggg, .intro, .help, .main, .upper{
+	float: top;
+}
+
+.info, .instructions, .logo, .left-bottom, .lower{
+	float: bottom;
+}
+
+.loggg, .userr, .instructions, .intro, .logo, .help, .main{
+	text-align: center;
+}
+
+.info .title, .info, .info .title div, .form1{
+    text-align: left;
+}
+
+.form1 input{
+	float: right;
+}
+
+.form1 *{
+	margin-left: 0.5vw;
+}
+
+/*=====POLOZAJI I CENTRIRANJE=====*/
+
+/*=====BOJE KONTEJNERA=====*/
+body{
+	background-color: rgb(247,209,164);
+}
+
+.main, .form1, .help, .intro, .instructions, .loggg, .info{
+	box-shadow: 1px 1px rgb(227,189,144);
+}
+
+.main, .instructions{
+	background-color: rgb(254,254,254);
+}
+
+.form1, .loggg, .info{
+	background-color: rgb(237, 151, 46);
+}
+
+.intro, .help{
+	background-color: rgb(0,167,157);
+}
+
+/*=====BOJE KONTEJNERA=====*/
+
+.info .title div{
+	-webkit-transform: rotate(-90deg);
+}

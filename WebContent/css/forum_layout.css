@@ -1,0 +1,199 @@
+/*=====POLOZAJI I CENTRIRANJE=====*/
+
+.odd-subject, .even-subject, .three-subject{
+	width: 85%;
+	height: 10%;
+}
+
+.main-info, .teleport, .mod{
+	width: 100%;
+	height: 25%;
+}
+
+.top{
+	width: 100%;
+	height: 33%;
+}
+
+.report-cont{
+	width: 75%;
+	height: 0%;
+}
+
+.buttons, .del, .report, .help, .logo, .user, .info{
+	width: 100%;
+	height: 50%;
+}
+
+.bottom{
+	width: 100%;
+	height: 67%;
+}
+
+.other-info{
+	width: 100%;
+	height: 75%;
+}
+
+.log, .left, .right{
+	width: 12.5%;
+	height: 100%;
+}
+
+.icon{
+	width: 25%;
+	height: 100%;
+}
+
+.options{
+	width: 33%;
+	height: 100%;
+}
+
+.forum-title, .rules{
+	width: 37.5%;
+	height: 100%;
+}
+
+.main, .save, .small-buttons{
+	width: 50%;
+	height: 100%;
+}
+
+.description{
+	width: 62.5%;
+	height: 100%;
+}
+
+.forum-info{
+	width: 67%;
+	height: 100%;
+}
+
+.middle, .new-subject{
+	width: 75%;
+	height: 100%;
+}
+
+.forum-subjects{
+	width: 75%;
+	height: 67%;	
+}
+
+.top, .help, .user, .main-info, .teleport, .del{
+	float: top;
+}
+
+.main, .left, .forum-info, .icon, .description, .save, .forum-title, .middle{
+	float: left;
+}
+
+.log, .right, .options, .new-subject, .rules, .small-buttons{
+	float: right;
+}
+
+.bottom, .logo, .info, .other-info, .buttons, .report{
+	float: bottom;
+}
+
+.report-cont{
+	margin-left: 12.5%;
+	margin-right: 12.5%;
+}
+
+.main, .help, .log, .user, .icon, .new-subject, .forum-title, .teleport, .mod, .del, .save, .report, .three-subject{
+	text-align: center;
+}
+
+.info, .rules, .odd-subject{
+	text-align: left;
+}
+
+.even-subject{
+	text-align: right;
+}
+
+.description{
+	text-align: justify;
+}
+
+#description{
+	padding: 2%;
+}
+
+#rules{
+	padding: 5%;
+}
+
+.forum-subjects div{
+	margin: 0.5% 0.5% 0.5% 0.5%;
+}
+
+.forum-subjects{
+	margin-left: 12.5%;
+	margin-right: 12.5%;
+}
+
+.forum-subjects .odd-subject{
+	margin-right: 7.5%;
+	margin-left: 7.5%;
+}
+
+.forum-subjects .even-subject{
+	margin-right: 10%;
+	margin-left: 5%;
+}
+
+.forum-subjects .three-subject{
+	margin-right: 5%;
+	margin-left: 10%;
+}
+
+/*=====POLOZAJI I CENTRIRANJE=====*/
+
+/*=====BOJE KONTEJNERA=====*/
+body{
+	background-color: rgb(247,209,164);
+}
+
+.main, .help, .log, .info, .forum-subjects div, .new-subject, 
+.description, .rules, .mod, .teleport, .save, .report{
+	box-shadow: 1px 1px rgb(227,189,144);
+}
+
+.main, .mod, .description, .save{
+	background-color: rgb(254,254,254);
+}
+
+.log, .info, .rules{
+	background-color: rgb(237, 151, 46);
+}
+
+.help, .new-subject, .teleport, .report{
+	background-color: rgb(0,167,157);
+}
+
+.three-subject{
+	background-color: rgba(254,254,254, 0.7);
+}
+
+.even-subject{
+	background-color: rgba(0,167,157, 0.7);
+}
+
+.odd-subject{
+	background-color: rgba(237, 151, 46, 0.7);
+}
+
+/*=====BOJE KONTEJNERA=====*/
+
+.info .title div{
+	-webkit-transform: rotate(-90deg);
+}
+
+
+
+
+
+
+

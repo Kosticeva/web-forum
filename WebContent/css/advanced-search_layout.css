@@ -1,0 +1,170 @@
+/*=====POLOZAJI I CENTRIRANJE=====*/
+
+.title{
+	width: 100%;
+	height: 4vw;
+}
+
+.cbox{
+	width: 100%;
+}
+
+.title1{
+	height: 10%;
+}
+
+.opts{
+	width: 80%;
+}
+
+ .even-result, .odd-result{
+	 width: 85%;
+	 height: 25%;
+ }
+
+.top, .users-query{
+	width: 100%;
+	height: 33%;
+}
+
+.help, .logo, .user, .info{
+	width: 100%;
+	height: 50%;
+}
+
+.subject-boxes, .forum-boxes{
+	height: 50%;
+}
+
+.bottom, .forums-query{
+	width: 100%;
+	height: 67%;
+}
+
+.queries{
+	width: 100%;
+	height: 75%;
+}
+
+.log, .left, .right{
+	width: 12.5%;
+	height: 100%;
+}
+
+.search-title{
+	width: 37.5%;
+	height: 100%;
+}
+
+.main, .western, .ostern{
+	width: 50%;
+	height: 100%;
+}
+
+ .subjects-query{
+    width: 100%;
+	height: 75%;
+ }
+ 
+ .go{
+	 width: 100%;
+	 height: 25%;
+ }
+
+.middle{
+	width: 75%;
+	height: 100%;
+}
+
+.top, .help, .user, .queries, .forums-query, .subjects-query{
+	float: top;
+}
+
+.main, .left, .middle, .search-title, .odd-result, .even-result, .title1, .opts, .ostern{
+	float: left;
+}
+
+.log, .right, button.search, .western, input[type="checkbox"]{
+	float: right;
+}
+
+.bottom, .logo, .info, .search-results, .users-query, .subject-boxes, .forum-boxes, .go, .go button{
+	float: bottom;
+}
+
+.main, .help, .log, .user, .search-title, .forums-query, .subjects-query, .users-query, .go{
+	text-align: center;
+}
+
+.info, .search-bar, .odd-result, .cbox{
+	text-align: left;
+}
+
+.even-result{
+	text-align: right;
+}
+
+.even-result{
+	margin-left: 10%;
+	margin-right: 5%;
+	margin-top: 1%;
+	margin-bottom: 1%;
+	padding-right: 2%;
+}
+
+.odd-result{
+	margin-right: 10%;
+	margin-left: 5%;
+	margin-top: 1%;
+	margin-bottom: 1%;
+	padding-left: 2%;
+}
+
+.forum-boxes .title1{
+	margin-top: 4vw;
+	margin-left: -5%;
+	
+}
+
+.subject-boxes .title1{
+	margin-top: 5.5vw;
+	margin-left: -5%;
+}
+
+/*=====POLOZAJI I CENTRIRANJE=====*/
+
+/*=====BOJE KONTEJNERA=====*/
+body{
+	background-color: rgb(247,209,164);
+}
+
+.main, .help, .log, .info, .search-title, .forums-query, .subjects-query, .users-query, .go{
+	box-shadow: 1px 1px rgb(227,189,144);
+}
+
+.main, .forums-query, .go{
+	background-color: rgb(254,254,254);
+}
+
+.log, .info, .subjects-query{
+	background-color: rgb(237, 151, 46);
+}
+
+.help, .search-title, .users-query{
+	background-color: rgb(0,167,157);
+}
+
+.even-result{
+	background-color: rgba(0,167,157, 0.7);
+}
+
+.odd-result{
+	background-color: rgba(237,151,46, 0.7);
+}
+
+
+/*=====BOJE KONTEJNERA=====*/
+
+.info .title div, .forum-boxes .title1, .subject-boxes .title1{
+	-webkit-transform: rotate(-90deg);
+}
